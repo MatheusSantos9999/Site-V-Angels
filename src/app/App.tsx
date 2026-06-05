@@ -53,15 +53,14 @@ export default function App() {
       {/* Video Section */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-            <video
-              controls
-              className="w-full h-auto"
-              poster=""
-            >
-              <source src="/src/imports/WhatsApp_Video_2026-04-16_at_16.24.49__1_.mp4" type="video/mp4" />
-              Seu navegador não suporta a reprodução de vídeos.
-            </video>
+          <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-video">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/pAL5nc4b9EQ"
+              title="V-Angels - Sistema de Segurança"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
           </div>
         </div>
       </section>
