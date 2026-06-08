@@ -226,7 +226,7 @@ export default function App() {
       </section>
 
       {/* Benefícios Section */}
-      <section id="beneficios" className="py-20 bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
+      <section id="beneficios" className="py-20 text-white" style={{ background: '#111111' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
@@ -237,7 +237,7 @@ export default function App() {
             </p>
           </div>
           <div className="max-w-2xl mx-auto">
-            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-xl">
+            <div className="p-8 rounded-xl border border-white/10" style={{ background: '#1A1A1A' }}>
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-3">
                 <Heart className="w-8 h-8" />
                 Benefícios do Sistema
